@@ -25,8 +25,8 @@ function getColor(){
 
 buttonColor.addEventListener('click',function getRandom(){
    let colors = getColor()
-   console.log(background.style.backgroundColor = colors); 
-   console.log(showColor.textContent = colors);
+   background.style.backgroundColor = colors; 
+   showColor.textContent = colors;
 })
 
 
